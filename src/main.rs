@@ -31,7 +31,7 @@ pub fn About() -> Element {
 
             // Left column: Text + Contact buttons
             div {
-                class: "flex flex-col gap-4 max-w-full md:max-w-md min-w-[600px]",
+                class: "flex flex-col gap-4 max-w-full md:max-w-md md:min-w-[600px] lg:min-w-[700px] text-center md:text-left",
 
                 h1 { class: "text-3xl sm:text-4xl font-bold mb-4 text-center", "About Me" }
 
