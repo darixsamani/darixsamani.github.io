@@ -20,7 +20,7 @@ pub fn WorkExperiences() -> Element {
             company: "Hoozon Sarl".to_string(),
             logo: "https://ui-avatars.com/api/?name=HS&background=0D8ABC&color=fff&size=64".to_string(),
             title: "Full Stack Engineer".to_string(),
-            location: "Yaoundé, Cameroon".to_string(),
+            location: "Douala, Cameroon".to_string(),
             start_date: "Fev. 2024".to_string(),
             end_date: "Sep. 2024".to_string(),
             achievements: vec![
