@@ -2,6 +2,7 @@ use dioxus::prelude::*;
 use crate::components::about::About;
 use crate::components::skills::Skills;
 use crate::components::projects::Projects;
+use crate::components::experiences::WorkExperiences;
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
 const MAIN_CSS: Asset = asset!("/assets/main.css");
@@ -25,6 +26,7 @@ fn App() -> Element {
         About {}
         Skills {}
         Projects {}
+        WorkExperiences {}
 
     }
 }
