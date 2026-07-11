@@ -123,6 +123,9 @@ pub fn Skills() -> Element {
                         span { class: "px-3 py-1 bg-red-500/10 text-red-300 rounded-full text-sm border border-red-500/20",
                             "Nest.js"
                         }
+                        span { class: "px-3 py-1 bg-teal-500/10 text-teal-300 rounded-full text-sm border border-teal-500/20",
+                            "Express.js"
+                        }
                     }
                 }
 
