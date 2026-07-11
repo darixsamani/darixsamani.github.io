@@ -1,7 +1,7 @@
 use dioxus::prelude::*;
-use crate::compoments::about::About;
-use crate::compoments::skills::Skills;
-use crate::compoments::projects::Projects;
+use crate::components::about::About;
+use crate::components::skills::Skills;
+use crate::components::projects::Projects;
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
 const MAIN_CSS: Asset = asset!("/assets/main.css");
@@ -9,7 +9,7 @@ const HEADER_SVG: Asset = asset!("/assets/header.svg");
 const TAILWIND_CSS: Asset = asset!("/assets/tailwind.css");
 
 
-pub mod compoments;
+pub mod components;
 
 fn main() {
     dioxus::launch(App);
