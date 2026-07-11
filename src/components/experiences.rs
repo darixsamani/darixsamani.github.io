@@ -46,7 +46,7 @@ pub fn WorkExperiences() -> Element {
         WorkExperience {
             company: "Data Touch Analytics".to_string(),
             logo: "https://ui-avatars.com/api/?name=DTA&background=8A2BE2&color=fff&size=64".to_string(),
-            title: "Machine Learning Researcher".to_string(),
+            title: "Sofware Developer".to_string(),
             location: "Douala, Cameroon".to_string(),
             start_date: "Dec. 2023".to_string(),
             end_date: "Sep. 2024".to_string(),
