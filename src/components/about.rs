@@ -1,5 +1,6 @@
 use dioxus::prelude::*;
 const IMAGES: Asset = asset!("/assets/IMG_9109-1024x683.jpg");
+const CV : Asset = asset!("assets/Darix_SAMANI_SIEWE_CV.pdf");
 
 #[component]
 pub fn About() -> Element {
@@ -96,10 +97,25 @@ pub fn About() -> Element {
                         "ResearchGate"
                     }
 
+                    // ✨ NEW: Linktree
+                    a {
+                        href: "https://linktr.ee/darixsamani", // Replace with your Linktree URL
+                        target: "_blank",
+                        rel: "noopener noreferrer",
+                        class: "inline-flex items-center gap-2 px-4 py-2 bg-[#43E660] text-white rounded-lg hover:bg-[#43E660]/80 transition-colors duration-200 text-sm sm:text-base",
+                        // Simple tree/leaf SVG for Linktree
+                        svg {
+                            class: "w-5 h-5 fill-current",
+                            view_box: "0 0 24 24",
+                            path { d: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15h4v-2h-4v2zm0-4h4v-2h-4v2zm0-4h4V7h-4v2zm-2 10h8v-2H8v2zm0-12h8V5H8v2z" }
+                        }
+                        "Linktree"
+                    }
+
                     // Download CV
                     a {
-                        href: "https://darixsamani.github.io/Darix_SAMANI_SIEWE_CV.pdf",
-                        download: true,
+                        href: CV,
+                        download: "Darix_SAMANI_SIEWE_CV.pdf",
                         class: "inline-flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors duration-200 text-sm sm:text-base",
                         // Download icon (simple SVG)
                         svg {
