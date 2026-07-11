@@ -32,7 +32,7 @@ pub fn Header() -> Element {
                         "Projects"
                     }
                     a {
-                        href: "#experience",
+                        href: "#experiences",
                         class: "text-gray-300 hover:text-white transition-colors",
                         "Work Experiences"
                     }
@@ -83,7 +83,7 @@ pub fn Header() -> Element {
                         "Skills"
                     }
                     a {
-                        href: "#experience",
+                        href: "#experiences",
                         class: "text-gray-300 hover:text-white transition-colors",
                         onclick: move |_| is_menu_open.set(false),
                         "Work Experiences"
