@@ -3,6 +3,7 @@ use crate::components::about::About;
 use crate::components::skills::Skills;
 use crate::components::projects::Projects;
 use crate::components::experiences::WorkExperiences;
+use crate::components::header::Header;
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
 const MAIN_CSS: Asset = asset!("/assets/main.css");
@@ -23,6 +24,7 @@ fn App() -> Element {
         document::Link { rel: "stylesheet", href: MAIN_CSS }
         document::Link { rel: "stylesheet", href: TAILWIND_CSS }
         // Hero {}
+        Header {}
         About {}
         Skills {}
         Projects {}
