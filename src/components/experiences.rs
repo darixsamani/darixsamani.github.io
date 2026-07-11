@@ -143,7 +143,7 @@ experience environments.".to_owned()
 
     rsx! {
         div {
-            id: "experience",
+            id: "experiences",
             class: "flex flex-col items-center justify-center gap-8 px-4 py-12 w-full max-w-4xl mx-auto",
 
             div { class: "text-center mb-2",
