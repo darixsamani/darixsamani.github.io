@@ -96,7 +96,7 @@ XSL-FO and XSLT.".to_owned(),
             github: "https://github.com/darixsamani/tpe-xml".to_owned(),
             skills: vec!["XML".to_owned(), "XSLT".to_owned(), "XSL-FO".to_owned(),"Shell/bash".to_owned(), "Git".to_owned()],
         },
-        // Add more projects as needed
+        
     ];
 
     rsx! {
