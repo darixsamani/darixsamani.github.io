@@ -106,7 +106,7 @@ XSL-FO and XSLT.".to_owned(),
 
             // Section header
             div { class: "text-center mb-4",
-                h2 { class: "text-3xl sm:text-4xl font-bold mb-2", "Projects" }
+                h2 { class: "text-3xl sm:text-4xl font-bold mb-2", "Selected Projects" }
                 p { class: "text-base sm:text-lg text-gray-400 max-w-2xl mx-auto",
                     "A showcase of my work and contributions across various domains"
                 }
