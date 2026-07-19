@@ -20,7 +20,7 @@ pub fn WorkExperiences() -> Element {
             company: "Shipd".to_string(),
             logo: "https://ui-avatars.com/api/?name=sd&background=0D8ABC&color=fff&size=64".to_string(),
             title: "Software Engineer".to_string(),
-            location: "Remote, Douala, Cameroon".to_string(),
+            location: "Remote / Douala, Cameroon".to_string(),
             start_date: "Jul. 2026".to_string(),
             end_date: "Now".to_string(),
             achievements: vec![
