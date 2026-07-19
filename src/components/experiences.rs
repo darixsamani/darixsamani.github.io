@@ -67,11 +67,8 @@ pub fn WorkExperiences() -> Element {
             start_date: "Dec. 2023".to_string(),
             end_date: "Sep. 2024".to_string(),
             achievements: vec![
-                "Developed end-to-end application for hospital blood donation management, automating data collection and
-distribution workflows.".to_owned(),
-                "Orchestrated Celery, Redis, and RabbitMQ integration to automate donor notifications(hemovigilance messages to
-donors after 24 hours, 48 hours (after their samples), and on the date of their next eligible donation ), improving
-engagement and compliance rates.".to_owned(),
+                "Developed end-to-end application for hospital blood donation management, automating data collection and istribution workflows.".to_owned(),
+                "Orchestrated Celery, Redis, and RabbitMQ integration to automate donor notifications(hemovigilance messages to donors after 24 hours, 48 hours (after their samples), and on the date of their next eligible donation ), improving engagement and compliance rates.".to_owned(),
                 "Built RESTful APIs in Python, enabling secure, scalable data exchange between hospital systems.".to_owned(),
                 "Create a monthly PDF report generator using Celery Beat.".to_owned(),
                 "Implement a system to send birthday messages to donors.".to_owned(),
@@ -94,8 +91,7 @@ engagement and compliance rates.".to_owned(),
                 "Training AI Systems and Large Language Models (LLMs).".to_owned(),
                 "Enhancing chatbots to be more useful for people worldwide.".to_owned(),
                 "Have an impact in making LLMs safer, accurate, and reliable.".to_owned(),
-                "Help improve the AI chatbot for their customers, and these tasks will directly affect the quality of the chatbot
-experience environments.".to_owned()
+                "Help improve the AI chatbot for their customers, and these tasks will directly affect the quality of the chatbot experience environments.".to_owned()
             ],
             skills: vec![
                 "Prompt Engineering".to_owned(), "Prompt Writing".to_owned(), "Creative Ideas and Thinkings".to_owned(),
