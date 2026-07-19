@@ -21,7 +21,7 @@ pub fn WorkExperiences() -> Element {
             logo: "https://ui-avatars.com/api/?name=sd&background=0D8ABC&color=fff&size=64".to_string(),
             title: "Software Engineer".to_string(),
             location: "Remote, Douala, Cameroon".to_string(),
-            start_date: "Jul. 2024".to_string(),
+            start_date: "Jul. 2026".to_string(),
             end_date: "Now".to_string(),
             achievements: vec![
                 "Identified and proposed a GitHub issue on a 500+ star open-source repository, then authored an integration test to reproduce and validate the fix, streamlining the resolution process for maintainers, and also wrote the Dockerfile.".to_owned(),
