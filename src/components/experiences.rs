@@ -14,7 +14,8 @@ struct WorkExperience {
 
 #[component]
 pub fn WorkExperiences() -> Element {
-    // Sample data – update with your own
+
+    
     let experiences = vec![
         WorkExperience {
             company: "Shipd".to_string(),
