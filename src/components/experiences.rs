@@ -29,7 +29,7 @@ pub fn WorkExperiences() -> Element {
                 
             ],
             skills: vec![
-                "Rust".to_owned(), "Oxigraph".to_owned(), "Open source Development".to_owned(), "GitHub".to_owned(), "Docker".to_owned(), "Integration Testing".to_owned(),
+                "Rust".to_owned(), "Oxigraph".to_owned(), "Open-source Development".to_owned(), "GitHub".to_owned(), "Docker".to_owned(), "Integration Testing".to_owned(),
             ],
         },
 
