@@ -198,7 +198,7 @@ fn WorkExperienceCard(experience: WorkExperience, is_last: bool) -> Element {
             // Card
             div { class: "flex-1 bg-gray-800/50 backdrop-blur-sm rounded-xl p-5 sm:p-6 border border-gray-700/50 hover:border-blue-500/50 transition-all duration-300",
 
-                // Row: Company, Title, and Date
+                // Row: Company, Title, location, and Date
                 div { class: "flex flex-col sm:flex-row sm:items-center justify-between gap-1 sm:gap-4 mb-1",
                     div {
                         h3 { class: "text-lg sm:text-xl font-bold text-white", "{experience.company}" }
