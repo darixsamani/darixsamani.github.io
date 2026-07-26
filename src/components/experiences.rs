@@ -208,7 +208,7 @@ fn WorkExperienceCard(experience: WorkExperience, is_last: bool) -> Element {
                     }
 
                     div { class: "flex flex-col",
-                        div { class: "text-xs sm:text-sm text-gray-400 whitespace-nowrap",
+                        div { class: "text-xs sm:text-sm text-gray-400 whitespace-nowrap text-right",
                             span { "{experience.start_date}" }
                             span { " — " }
                             span { "{experience.end_date}" }
