@@ -25,7 +25,8 @@ pub fn WorkExperiences() -> Element {
             start_date: "Jul. 2026".to_string(),
             end_date: "Now".to_string(),
             achievements: vec![
-                "Identified and proposed a GitHub issue on a 500+ star open-source repository, then authored an integration test to reproduce and validate the fix, streamlining the resolution process for maintainers, and also wrote the Dockerfile.".to_owned(),
+                "Diagnosed a bug in a 500+ star open-source repository, filed a well-scoped GitHub issue, and authored an integration test that reproduced the failure and validated the eventual fix — accelerating maintainer triage on an
+                agent-driven resolution workflow; also authored the project’s Dockerfile.".to_owned(),
                 
             ],
             skills: vec![
