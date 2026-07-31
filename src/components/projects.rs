@@ -10,11 +10,21 @@ const SIMPARX: Asset = asset!("assets/simparx.svg");
 const PDFDRIVE: Asset = asset!("assets/pdfdrive.svg");
 const MONGODB_SCHOOL: Asset = asset!("assets/mogobd_school.svg");
 const XML_RPOJECT: Asset = asset!("assets/xml_project.svg");
+const FASTCOAP: Asset = asset!("assets/fastcoap.png");
 
 #[component]
 pub fn Projects() -> Element {
     // Sample project data – replace with your own
     let projects = vec![
+
+        Project {
+            title: "FastCoAP".to_owned(),
+            description: "FastCoAP — an open-source Python framework for building CoAP (IoT) applications and APIs, inspired by FastAPI. Features async routing, dependency injection, Pydantic-based validation, and JSON/CBOR content negotiation, with a CLI for running and inspecting apps.".to_owned(),
+            image: FASTCOAP,
+            github: "https://github.com/darixsamani/fastcoap".to_owned(),
+            skills: vec!["Python".to_owned(),"aiocoap".to_owned(), "Git".to_owned()],
+        },
+
         Project {
             title: "Oxigraph Web".to_owned(),
             description: "A high-performance async REST API built with Rust and Salvo, exposing SPARQL query/update support, RDF import/export (Turtle, N-Triples, RDF/XML), named graph management, interactive dashboard, and OpenAPI/Swagger documentation on top of the Oxigraph RDF/SPARQL store for scalable semantic web applications.".to_owned(),
