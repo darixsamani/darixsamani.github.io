@@ -35,6 +35,25 @@ pub fn WorkExperiences() -> Element {
         },
 
         WorkExperience {
+            company: "Scale AI".to_string(),
+            logo: "https://ui-avatars.com/api/?name=SA&background=E87A24&color=fff&size=64".to_string(),
+            title: "Artificial Intelligence Trainer | Part-time".to_string(),
+            location: "Remote / Douala, Cameroon".to_string(),
+            start_date: "Jun. 2024".to_string(),
+            end_date: "Sep. 2024".to_string(),
+            achievements: vec![
+                "Training AI Systems and Large Language Models (LLMs).".to_owned(),
+                "Enhancing chatbots to be more useful for people worldwide.".to_owned(),
+                "Have an impact in making LLMs safer, accurate, and reliable.".to_owned(),
+                "Help improve the AI chatbot for their customers, and these tasks will directly affect the quality of the chatbot experience environments.".to_owned()
+            ],
+            skills: vec![
+                "Prompt Engineering".to_owned(), "Prompt Writing".to_owned(), "Creative Ideas and Thinkings".to_owned(),
+                "Prompt Evaluation".to_owned(),
+            ],
+        },
+
+        WorkExperience {
             company: "Hoozon Sarl".to_string(),
             logo: "https://ui-avatars.com/api/?name=HS&background=0D8ABC&color=fff&size=64".to_string(),
             title: "Full Stack Engineer".to_string(),
@@ -82,24 +101,7 @@ pub fn WorkExperiences() -> Element {
                         "Docker Compose".to_owned(), "JavaScript".to_owned(), "Python3".to_owned(), "Celery-beat".to_owned(), "Vite".to_owned(), "TLS/SSL".to_owned(), "Shell/bash".to_owned(),
 ],
         },
-        WorkExperience {
-            company: "Scale AI".to_string(),
-            logo: "https://ui-avatars.com/api/?name=SA&background=E87A24&color=fff&size=64".to_string(),
-            title: "Artificial Intelligence Trainer | Part-time".to_string(),
-            location: "Remote / Douala, Cameroon".to_string(),
-            start_date: "Jun. 2024".to_string(),
-            end_date: "Sep. 2024".to_string(),
-            achievements: vec![
-                "Training AI Systems and Large Language Models (LLMs).".to_owned(),
-                "Enhancing chatbots to be more useful for people worldwide.".to_owned(),
-                "Have an impact in making LLMs safer, accurate, and reliable.".to_owned(),
-                "Help improve the AI chatbot for their customers, and these tasks will directly affect the quality of the chatbot experience environments.".to_owned()
-            ],
-            skills: vec![
-                "Prompt Engineering".to_owned(), "Prompt Writing".to_owned(), "Creative Ideas and Thinkings".to_owned(),
-                "Prompt Evaluation".to_owned(),
-            ],
-        },
+        
         WorkExperience {
             company: "Astor Digitech".to_string(),
             logo: "https://ui-avatars.com/api/?name=AD&background=E87A24&color=fff&size=64".to_string(),
