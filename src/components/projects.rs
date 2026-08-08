@@ -19,7 +19,7 @@ pub fn Projects() -> Element {
 
         Project {
             title: "FastCoAP".to_owned(),
-            description: "FastCoAP — an open-source Python framework for building CoAP (IoT) applications and APIs, inspired by FastAPI. Features async routing, dependency injection, Pydantic-based validation, and JSON/CBOR content negotiation, with a CLI for running and inspecting apps.".to_owned(),
+            description: "FastCoAP is an open-source Python framework for building CoAP (IoT) applications and APIs, inspired by FastAPI. Features async routing, dependency injection, Pydantic-based validation, and JSON/CBOR content negotiation, with a CLI for running and inspecting apps.".to_owned(),
             image: FASTCOAP,
             github: "https://github.com/darixsamani/fastcoap".to_owned(),
             skills: vec!["Python".to_owned(),"aiocoap".to_owned(), "Pydantic v2".to_owned(), "Typer".to_owned(), "CBOR".to_owned(), "asyncio".to_owned(),"Git".to_owned()],
