@@ -73,7 +73,7 @@ pub fn WorkExperiences() -> Element {
                 "Flask".to_owned(), "FastAPI".to_owned(), "TypeScript".to_owned(),
                 "SQLAlchemy".to_owned(), "Redis".to_owned(), "RabbitMQ".to_owned(),
                 "Celery".to_owned(), "Docker".to_owned(), "Github".to_owned(),
-                "WordPress".to_owned(), "Yup (form Validation)".to_owned(),
+                "WordPress".to_owned(), "Yup (Form Validation)".to_owned(),
                 "Tailwind CSS".to_owned(), "Nginx".to_owned(), "Docker Compose".to_owned(),
                 "JavaScript".to_owned(), "Python3".to_owned(), "webhooks".to_owned(),
                 "Vite".to_owned(), "TLS/SSL".to_owned(), "Shell/bash".to_owned(),
