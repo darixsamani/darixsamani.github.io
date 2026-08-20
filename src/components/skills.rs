@@ -79,6 +79,9 @@ pub fn Skills() -> Element {
                         span { class: "px-3 py-1 bg-yellow-600/10 text-yellow-300 rounded-full text-sm border border-yellow-600/20",
                             "Cassandra"
                         }
+                        span { class: "px-3 py-1 bg-green-600/10 text-green-300 rounded-full text-sm border border-green-600/20",
+                            "Oxigraph"
+                        }
                     }
                 }
 
