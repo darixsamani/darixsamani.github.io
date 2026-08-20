@@ -30,7 +30,7 @@ pub fn Projects() -> Element {
             description: "A high-performance async REST API built with Rust and Salvo, exposing SPARQL query/update support, RDF import/export (Turtle, N-Triples, RDF/XML), named graph management, interactive dashboard, and OpenAPI/Swagger documentation on top of the Oxigraph RDF/SPARQL store for scalable semantic web applications.".to_owned(),
             image: OXIGRAPH_WEB,
             github: "https://github.com/darixsamani/oxigraph-web".to_owned(),
-            skills: vec!["Rust".to_owned(), "HTML5".to_owned(), "CSS3".to_owned(), "JavaScript".to_owned(), "Docker".to_owned(), "Git".to_owned(), "React".to_owned()],
+            skills: vec!["Rust".to_owned(), "Salvo".to_owned(), "Oxigraph".to_owned(), "HTML5".to_owned(), "CSS3".to_owned(), "JavaScript".to_owned(), "Docker".to_owned(), "Git".to_owned(), "React".to_owned()],
         },
         Project {
             title: "Pdf2image Web".to_owned(),
