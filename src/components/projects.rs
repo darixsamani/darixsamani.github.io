@@ -14,7 +14,7 @@ const FASTCOAP: Asset = asset!("assets/fastcoap.png");
 
 #[component]
 pub fn Projects() -> Element {
-    // Sample project data – replace with your own
+    
     let projects = vec![
 
         Project {
