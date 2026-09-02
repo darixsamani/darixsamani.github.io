@@ -18,23 +18,6 @@ pub fn WorkExperiences() -> Element {
     
     let experiences = vec![
         WorkExperience {
-            company: "Shipd".to_string(),
-            logo: "https://ui-avatars.com/api/?name=sd&background=0D8ABC&color=fff&size=64".to_string(),
-            title: "Software Engineer | Part-time".to_string(),
-            location: "Remote / Douala, Cameroon".to_string(),
-            start_date: "Jul. 2026".to_string(),
-            end_date: "Now".to_string(),
-            achievements: vec![
-                "Diagnosed a bug in a 500+ star open-source repository, filed a well-scoped GitHub issue, and authored an integration test that reproduced the failure and validated the eventual fix — accelerating maintainer triage on an
-                agent-driven resolution workflow; also authored the project’s Dockerfile.".to_owned(),
-                
-            ],
-            skills: vec![
-                "Rust".to_owned(), "Oxigraph".to_owned(), "Open-source Development".to_owned(), "GitHub".to_owned(), "Docker".to_owned(), "Integration Testing".to_owned(),
-            ],
-        },
-
-        WorkExperience {
             company: "Scale AI".to_string(),
             logo: "https://ui-avatars.com/api/?name=SA&background=E87A24&color=fff&size=64".to_string(),
             title: "Artificial Intelligence Trainer | Part-time".to_string(),
