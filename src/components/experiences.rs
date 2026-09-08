@@ -18,7 +18,7 @@ pub fn WorkExperiences() -> Element {
     
     let experiences = vec![
         WorkExperience {
-            company: "Scale AI".to_string(),
+            company: "Outlier".to_string(),
             logo: "https://ui-avatars.com/api/?name=SA&background=E87A24&color=fff&size=64".to_string(),
             title: "Artificial Intelligence Trainer | Part-time".to_string(),
             location: "Remote / Douala, Cameroon".to_string(),
